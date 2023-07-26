@@ -1,0 +1,31 @@
+.NewExpense{
+    padding: 1px 3px;
+    background-color: #654E92;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    margin: 3px;
+}
+.divAddBtn{
+    padding: 1rem 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divAddBtn button{
+    padding: 4px 3px;
+    font-size: 1.2rem;
+    border: 2px solid #6C9BCF ;
+    border-radius: 3px;
+    color: #EBD8B2;
+    background-color: #27374D;
+}
+.divAddBtn button:hover,
+.divAddBtn button:focus{
+    cursor: pointer;
+    background-color:  rgb(77, 68, 110);
+    color: #f1c773;
+}

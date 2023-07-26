@@ -1,0 +1,37 @@
+.ExpForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.formItem{
+    margin: 1rem 2rem;
+}
+.formItem label{
+    margin-right: 6px;
+    color: #DDE6ED;
+    font-size: larger;
+    font-weight: 700;
+}
+.formItem input{
+    background-color: #EBD8B2;
+    padding: 1px 3px;
+    border-radius: 3px;
+    border: 1px solid #6C9BCF ;
+}
+.ExpForm button{
+    padding: 4px 3px;
+    font-size: 1.2rem;
+    border: 2px solid #6C9BCF ;
+    border-radius: 3px;
+    color: #EBD8B2;
+    background-color: #27374D;
+}
+.ExpForm button:hover,
+.ExpForm button:focus{
+    cursor: pointer;
+    background-color:  rgb(77, 68, 110);
+    color: #f1c773;
+}

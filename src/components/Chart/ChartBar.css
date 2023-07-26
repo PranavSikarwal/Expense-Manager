@@ -1,0 +1,22 @@
+.barCover{
+    width: 8%;
+    font-size: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.outerBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 7px;
+    background-color: rgb(115, 125, 97);
+}
+.barFilling{
+    border-radius: 6px;
+    width: 100%;
+    background-color: black;
+}
